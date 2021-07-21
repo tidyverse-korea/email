@@ -2,14 +2,14 @@ library(tidyverse)
 library(blastula)
 
 # 전자우편 인증키 ----------
-create_smtp_creds_key(
-    id = 'rconf',
-    # user = 'victor@r2bit.com', 
-    user = 'victor@aispiration.com', 
-    provider = 'gmail',
-    overwrite = TRUE,
-    use_ssl = TRUE
-)
+# create_smtp_creds_key(
+#     id = 'rconf',
+#     # user = 'victor@r2bit.com', 
+#     user = 'victor@aispiration.com', 
+#     provider = 'gmail',
+#     overwrite = TRUE,
+#     use_ssl = TRUE
+# )
 
 # 전자우편 발송 날짜 -------
 date_time <- add_readable_time()
